@@ -15,7 +15,7 @@
       <ul class="user-nav-list">
         <li>{{link 'community'}}</li>
         <li>{{link 'service_catalog'}}</li>
-        <li>{{link 'new_request' class='submit-a-request'}}</li>
+        <!-- <li>{{link 'new_request' class='submit-a-request'}}</li> -->
         {{#unless signed_in}}
           <li>
             {{#link "sign_in" class="sign-in" role="link"}}
@@ -86,8 +86,12 @@
           <li class="nav-divider"></li>
         {{/if}}
         <li class="item">{{link 'community'}}</li>
+<<<<<<< HEAD
         <li class="item">{{link 'new_request' class='submit-a-request'}}</li>
         <li class="item">{{link 'service_catalog'}}</li>
+=======
+        <!-- <li class="item">{{link 'new_request' class='submit-a-request'}}</li> -->
+>>>>>>> c481259 (Hide "Submit a request" as per https://support.zendesk.com/hc/en-us/articles/4408822542234-Workflow-Remove-Submit-a-request-link-from-the-help-center)
         <li class="nav-divider"></li>
         {{#if signed_in}}
           <li class="item">
