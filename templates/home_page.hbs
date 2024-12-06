@@ -1,6 +1,8 @@
 <h1 class="visibility-hidden">{{ help_center.name }}</h1>
 
 <section id="main-content" class="section hero">
+ <div style="position: relative; top: 50%; transform: translateY(-50%);">
+  <h1 style="color: white;">Hi. How can we help you?</h1>
   <div class="hero-inner">
     <h2 class="visibility-hidden">{{ t 'search' }}</h2>
     <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" focusable="false" viewBox="0 0 12 12" class="search-icon" aria-hidden="true">
@@ -9,6 +11,7 @@
     </svg>
     {{search submit=false instant=settings.instant_search class='search search-full'}}
   </div>
+ </div>
 </section>
 
 <div class="container">
